@@ -27,5 +27,5 @@ Hi! (insert student name)
 It seems like you have two bugs in your code in reverseInPlace() and reversed(), more specifically inside the for loops. 
 I wrote down some hints for you in the image below. 
  
-![Image](taFix.png)
+![Image](taFix1.png)
  
