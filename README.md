@@ -1,8 +1,10 @@
 # CSE15L LAB 5 REPORT 
 
-For the lab report this week, I am going to replicate an EdStem conversation that a student and a TA would have. 
+This lab report contains two parts. 
+The first part will replicate an EdStem conversatinon between a student an a TA. 
+The second part will be my final reflection of this class.
 
-**Part 1**
+**Part 1: EdStem**
 
 **Student**
 
@@ -43,6 +45,7 @@ Here is how my code looks like after debugging!
  
  ``` 
 changed 
+ 
 arr[i] = arr[arr.length - i];
 TO 
 arr[i] = arr[arr.length - i - 1];
@@ -52,14 +55,21 @@ AND
 arr[i] = newArray[arr.length - i];
 TO 
 arr[i] = newArray.length - i - 1];
- ``` 
- ``` 
- 
- 
+ ```
 
  
 And here is how my test results look like after debugging!  
  
  ![Image](correctTest.png)
+ 
+ 
+ **Part 2: Reflection**
+ 
+ This class has been a blast! I've learned so much in this class. 
+ During lecture, I learned the material and during lab, I honded my skills. 
+ Something that I learned in the second half of thei quarter that I found super interested was **vim** 
+ Ever since I learned of this command, my productivity increased. Rather than opening an entirely new project on VS Code, I could
+ open the project through the bash script while not refreshing VS Code.  (Not sure if this makes sense)
 
+ 
  
