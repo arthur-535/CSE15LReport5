@@ -40,6 +40,13 @@ After tracing the code through the for loops, I realized why I was getting an in
 Here is how my code looks like after debugging!
 
 ![Image](correctCode.png)
+ 
+ ``` 
+changed 
+arr[i] = arr[arr.length - i];
+TO 
+arr[i] = arr[arr.length - i - 1];
+ ``` 
 
  
 And here is how my test results look like after debugging!  
