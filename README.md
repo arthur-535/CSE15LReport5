@@ -46,7 +46,16 @@ changed
 arr[i] = arr[arr.length - i];
 TO 
 arr[i] = arr[arr.length - i - 1];
+
+AND
+
+arr[i] = newArray[arr.length - i];
+TO 
+arr[i] = newArray.length - i - 1];
  ``` 
+ ``` 
+ 
+ 
 
  
 And here is how my test results look like after debugging!  
